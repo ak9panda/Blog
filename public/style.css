@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+    color: #222222;
+    max-width: 780px;
+    margin: auto;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+
+article + article {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid black;
+}
